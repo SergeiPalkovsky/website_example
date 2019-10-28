@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+    background: linear-gradient(to right, #686a6b 0%, #384958 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-container {
+    width: 485px;
+    height: 485px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.profile-menu {
+    float: left;
+    width: 37%;
+    height: 482px;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(#000, 0.2)
+}
+.image-container {
+    width: 70px;
+    height: 70px;
+    margin: 60px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.active:hover, .active-chosen{
+    background: #f7f7f7;
+}
+.active, .active-chosen {
+    border-left: 5px solid #e48418;
+}
+.profile-content {
+    width: 63%;
+    float: right;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(#000, 0.2);
+}
+.actions{
+    width: 100%;
+    background: linear-gradient(to right, #e48418 0%, #ffd900 100%);
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 20px 0 0 0;
+}
+i {
+    padding-left: 20px;
+    float: left;
+}
+i+i {
+    padding-right: 20px;
+    float: right;
+}
+.info {
+    background: linear-gradient(to right, #e48418 0%, #ffd900 100%);
+    text-align: center;
+    color: #fff;
+    padding: 0 0 20px 0;
+    
+}
+.in-box {
+    width: 90px;
+    height: auto;
+    border-radius: 30%;
+}
+h2 {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+span {
+    font-size: 15px;
+    font-weight: 300;
+}
+.summary {
+    color: #fff;
+}
+.content {
+    width: 50%;
+    float: left;
+    background: linear-gradient(to right, #e48418 0%, #ffd900 100%);
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+.social {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
